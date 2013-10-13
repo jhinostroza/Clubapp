@@ -22,9 +22,9 @@ public class ServicioDao extends BaseDao {
             con = ConexionDB.obtenerConexion();
             con.setAutoCommit(false);
             stmt = con.prepareStatement(query);
-            stmt.setInt(1, 2);
-            stmt.setString(2, "Campamentos");
-            stmt.setDouble(3, 500.00);
+            stmt.setInt(1, (int) vo.getId());
+            stmt.setString(2, vo.getDescripcion());
+            stmt.setDouble(3, vo.getCostoHora());
 
             int i = stmt.executeUpdate();
             if (i != 1) {
