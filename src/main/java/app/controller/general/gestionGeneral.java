@@ -1,5 +1,5 @@
 
-package app.Servicios;
+package app.controller.general;
 
 import app.dao.GeneralDao;
 import app.dao.DaoExcepcion;

@@ -1,5 +1,5 @@
 
-package app.Servicios;
+package app.controller.servicios;
 
 import app.dao.DaoExcepcion;
 import app.dao.ServicioDao;
