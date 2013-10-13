@@ -8,6 +8,10 @@ public class Local {
     private int estado;
     private String maps;
     private String telefono;
+    
+    public Local(){
+        
+    } 
 
     public long getIdLocal() {
         return idLocal;
