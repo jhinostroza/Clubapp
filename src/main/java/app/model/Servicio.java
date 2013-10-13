@@ -5,6 +5,10 @@ public class Servicio {
     private long id;
     private String descripcion;
     private double costoHora;
+    
+    public Servicio(){
+        
+    }
 
     public long getId() {
         return id;

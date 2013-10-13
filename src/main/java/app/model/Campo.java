@@ -12,7 +12,9 @@ public class Campo {
       private Local local;
       
       
-      
+      public Campo(){
+          
+      }
 
     public long getId() {
         return id;
