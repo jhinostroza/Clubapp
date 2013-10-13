@@ -6,9 +6,7 @@ public class Servicio {
     private String descripcion;
     private double costoHora;
     
-    public Servicio(){
-        
-    }
+
 
     public long getId() {
         return id;
