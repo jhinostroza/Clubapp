@@ -16,7 +16,7 @@ public class GeneralDao extends BaseDao{
         
         System.out.println("GeneralDao: insertar()");
         
-        String query = "INSERT INTO general (idGeneral,usuario,password) VALUES (?,?,?)";
+        String query = "INSERT INTO general (id,usuario,password) VALUES (?,?,?)";
         Connection con = null;
         PreparedStatement stmt = null;
         ResultSet rs = null;
@@ -26,7 +26,7 @@ public class GeneralDao extends BaseDao{
             con = ConexionDB.obtenerConexion();
             con.setAutoCommit(false);
             stmt = con.prepareStatement(query);
-            stmt.setString(1, "001");
+            stmt.setInt(1, 001);
             stmt.setString(2, "jhinostroza");
             stmt.setString(3, "jhinostroza");
             
