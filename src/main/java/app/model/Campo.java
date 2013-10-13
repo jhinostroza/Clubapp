@@ -9,7 +9,9 @@ public class Campo {
       private int estado;
       private int tipo;
       private double costoHora;
-      private Local local;
+      private Local idLocal;
+
+   
       
       
       public Campo(){
@@ -56,14 +58,13 @@ public class Campo {
         this.costoHora = costoHora;
     }
 
-    public Local getLocal() {
-        return local;
+    public Local getIdLocal() {
+        return idLocal;
     }
 
-    public void setLocal(Local local) {
-        this.local = local;
+    public void setIdLocal(Local idLocal) {
+        this.idLocal = idLocal;
     }
-    
       
       
 }
